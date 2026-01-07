@@ -62,6 +62,62 @@ The project will be carried out in the following stages:
 
 ## 📌 Current Status
 ✅ **Step-1 Completed**  
-
 The dataset has been reviewed, the project structure is set up, and initial documentation has been prepared.
 
+## 📊 Step-1: Exploratory Data Analysis & Visualization (Completed)
+
+### What was done
+- Performed exploratory data analysis using Excel
+- Analyzed churn patterns using pivot tables
+- Created visualizations using Tableau
+- Built an interactive dashboard combining key insights
+
+---
+
+### Analysis Performed
+- Churn vs Contract Type  
+- Churn vs Internet Service  
+- Churn vs Payment Method  
+- Churn vs Gender  
+- Monthly Charges vs Churn  
+
+---
+
+### Key Findings
+- Month-to-month contract customers show the highest churn
+- Fiber optic internet users churn more than DSL users
+- Customers using electronic check payment method have higher churn
+- Higher monthly charges increase churn probability
+- Gender has minimal impact on churn behavior
+- Early-tenure customers are more likely to churn
+
+---
+
+### Visual Outputs
+The following charts were created during analysis:
+- Churn distribution
+- Churn by contract type
+- Churn by internet service
+- Churn by payment method
+- Monthly charges vs churn
+
+---
+
+### Outcome of Step-1
+- Identified key churn drivers
+- Validated business assumptions before model building
+- Prepared data for feature engineering and machine learning
+
+---
+
+### Next Steps
+➡️ Data cleaning, feature engineering, and model development
+
+---
+
+## 📊 Charts
+
+![Churn Distribution](images/churn_distribution.png)
+![Churn by Contract Type](images/churn_by_contract.png)
+![Churn by Internet Service](images/churn_by_internet.png)
+![Monthly Charges vs Churn](images/monthly_charges_vs_churn.png)
