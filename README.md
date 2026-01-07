@@ -117,7 +117,8 @@ The following charts were created during analysis:
 
 ## 📊 Charts
 
-![Churn Distribution](images/churn_distribution.png)
-![Churn by Contract Type](images/churn_by_contract.png)
-![Churn by Internet Service](images/churn_by_internet.png)
-![Monthly Charges vs Churn](images/monthly_charges_vs_churn.png)
+![Churn Distribution](images/Churn_Distribution.png)
+![Churn by Contract Type](images/Churn_by_Contract_Type.png)
+![Churn by Internet Service](images/Churn_by_Internet_Service.png)
+![Monthly Charges vs Churn](images/Monthly_Charges_vs_Churn.png)
+
