@@ -75,21 +75,22 @@ The dataset has been reviewed, the project structure is set up, and initial docu
 ---
 
 ### Analysis Performed
-- Churn vs Contract Type  
+- Churn distribution
+- Churn vs Contract Type
 - Churn vs Internet Service  
-- Churn vs Payment Method  
 - Churn vs Gender  
 - Monthly Charges vs Churn  
+- Dashboard
 
 ---
 
 ### Key Findings
-- Month-to-month contract customers show the highest churn
-- Fiber optic internet users churn more than DSL users
-- Customers using electronic check payment method have higher churn
-- Higher monthly charges increase churn probability
-- Gender has minimal impact on churn behavior
-- Early-tenure customers are more likely to churn
+- Out of 7,043 customers, 1,869 have churned, resulting in a churn rate of approximately **26.5%**, indicating a significant retention challenge.
+- Gender shows minimal influence on churn; differences between male and female customers are marginal.
+- Customers using **Fiber Optic** internet services exhibit higher churn, likely due to higher monthly charges and availability of competitive alternatives.
+- **Month-to-month contract** customers show significantly higher churn and will be a high-importance feature in the prediction model.
+- Churn increases notably in the **₹80–₹100 monthly charge range**, suggesting higher price sensitivity among premium customers.
+- Customers in the **₹0–₹20 charge range** show very low churn, likely due to basic or long-term bundled plans with fewer alternatives.
 
 ---
 
@@ -126,3 +127,4 @@ The following charts were created during analysis:
 ➡️ Data cleaning, feature engineering, and model development
 
 ---
+
