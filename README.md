@@ -94,18 +94,69 @@ The dataset has been reviewed, the project structure is set up, and initial docu
 
 ---
 
-### Visual Outputs
-##Dashboard
+## 📊 Visual Outputs & Dashboard Analysis
 
-![Dashboard](images/dashboard_1.png)
-
-![Dashboard](images/dashboard_2.png)
-
-![Dashboard](images/dashboard_3.png)
-
-![Dashboard](images/dashboard_4.png)
+To ensure clarity and avoid visual clutter, the analysis was structured into **four Tableau dashboards**, each designed to answer a **specific business question related to customer churn**.
 
 ---
+
+### 📌 Dashboard 1 — Churn Overview Dashboard
+![Dashboard 1](images/dashboard_1.png)
+
+**Contains:**
+- Churn Distribution  
+- Churn by Gender  
+- Churn by Internet Service  
+- Churn by Contract Type  
+- Monthly Charges vs Churn  
+
+**Purpose:**  
+→ Provides a high-level overview of churn behavior and helps identify the primary churn drivers across key customer attributes.
+
+---
+
+### 📌 Dashboard 2 — Demographic Churn Dashboard
+![Dashboard 2](images/dashboard_2.png)
+
+**Contains:**
+- Churn by Age Band  
+- Gender Distribution by Age Band  
+- Churn by Senior Citizen Status  
+- Senior Citizen Churn (Male vs Female)  
+
+**Purpose:**  
+→ Identifies churn patterns across different demographic segments, helping understand how age and senior citizen status influence customer retention.
+
+---
+
+### 📌 Dashboard 3 — Product & SIM Churn Dashboard
+![Dashboard 3](images/dashboard_3.png)
+
+**Contains:**
+- Churn by SIM Network  
+- SIM Network vs Gender  
+- SIM vs Senior Citizen vs Churn (Heatmap)  
+- Churn by Payment Method  
+- Fiber vs SIM vs Gender vs Churn  
+
+**Purpose:**  
+→ Analyzes churn based on product usage, network type, and payment preferences to uncover service-related churn trends.
+
+---
+
+### 📌 Dashboard 4 — Tenure & Customer Lifecycle Dashboard
+![Dashboard 4](images/dashboard_4.png)
+
+**Contains:**
+- Churn by Tenure Quarter  
+- Average Charges by Tenure Quarter  
+- SIM Network vs Tenure Quarter (Heatmap)  
+- Fiber Service vs Tenure Quarter  
+- Contract Type vs Tenure Quarter (Heatmap)  
+
+**Purpose:**  
+→ Helps understand **when churn occurs** during the customer lifecycle and how tenure, charges, and contract types impact churn over time.
+
 
 ### Outcome of Step-1
 - Identified key churn drivers
@@ -118,6 +169,7 @@ The dataset has been reviewed, the project structure is set up, and initial docu
 ➡️ Data cleaning, feature engineering, and model development
 
 ---
+
 
 
 
