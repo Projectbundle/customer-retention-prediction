@@ -95,9 +95,8 @@ The dataset has been reviewed, the project structure is set up, and initial docu
 ---
 
 ### Visual Outputs
-The following charts were created during analysis:
+##Dashboard
 
-- Dashboard
 ![Dashboard](images/dashboard_1.png)
 
 ![Dashboard](images/dashboard_2.png)
@@ -119,5 +118,6 @@ The following charts were created during analysis:
 ➡️ Data cleaning, feature engineering, and model development
 
 ---
+
 
 
