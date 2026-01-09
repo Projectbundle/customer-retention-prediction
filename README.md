@@ -96,23 +96,15 @@ The dataset has been reviewed, the project structure is set up, and initial docu
 
 ### Visual Outputs
 The following charts were created during analysis:
-- Churn distribution
-![Churn Distribution](images/Churn_Distribution.png)
-
-- Churn by contract type
-![Churn by Contract Type](images/Churn_by_Contract_Type.png)
-
-- Churn by internet service
-![Churn by Internet Service](images/Churn_by_Internet_Service.png)
-
-- Churn by gender
-![Gender vs Churn](images/Churn_by_Gender.png)
-
-- Monthly charges vs churn
-![Monthly Charges vs Churn](images/Monthly_Charges_vs_Churn.png)
 
 - Dashboard
-![Dashboard](images/Dashboard.png)
+![Dashboard](images/dashboard_1.png)
+
+![Dashboard](images/dashboard_2.png)
+
+![Dashboard](images/dashboard_3.png)
+
+![Dashboard](images/dashboard_4.png)
 
 ---
 
@@ -127,4 +119,5 @@ The following charts were created during analysis:
 ➡️ Data cleaning, feature engineering, and model development
 
 ---
+
 
