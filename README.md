@@ -113,6 +113,8 @@ To ensure clarity and avoid visual clutter, the analysis was structured into **f
 **Purpose:**  
 → Provides a high-level overview of churn behavior and helps identify the primary churn drivers across key customer attributes.
 
+*“Churn is significantly higher among month-to-month customers, fiber optic internet users, and customers with higher monthly charges. Gender plays a minimal role. These findings indicate that contract freedom, premium product expectations, and price sensitivity are primary churn drivers at the overall population level.”*
+
 ---
 
 ### 📌 Dashboard 2 — Demographic Churn Dashboard
@@ -126,6 +128,8 @@ To ensure clarity and avoid visual clutter, the analysis was structured into **f
 
 **Purpose:**  
 → Identifies churn patterns across different demographic segments, helping understand how age and senior citizen status influence customer retention.
+
+*“Demographic analysis shows that churn does not vary significantly by gender, but senior citizens exhibit a notably higher churn rate than non-seniors, particularly senior males. This indicates that age and digital readiness influence churn more than gender. Senior customers may need targeted engagement, support, and simplified service touchpoints.”*
 
 ---
 
@@ -142,6 +146,8 @@ To ensure clarity and avoid visual clutter, the analysis was structured into **f
 **Purpose:**  
 → Analyzes churn based on product usage, network type, and payment preferences to uncover service-related churn trends.
 
+*“Product-level analysis reveals that premium service subscribers (e.g., fiber optic, higher billing) and customers using manual billing methods (such as electronic check) churn more frequently. Simulated SIM analysis also indicates competitive switching tendencies, especially among premium network customers. This confirms that churn is driven not just by price, but by perceived service value, experience expectations, and billing friction.”*
+
 ---
 
 ### 📌 Dashboard 4 — Tenure & Customer Lifecycle Dashboard
@@ -157,11 +163,23 @@ To ensure clarity and avoid visual clutter, the analysis was structured into **f
 **Purpose:**  
 → Helps understand **when churn occurs** during the customer lifecycle and how tenure, charges, and contract types impact churn over time.
 
+*“Churn is heavily front-loaded, peaking in the first 1–2 quarters of tenure, and stabilizing in later quarters. Month-to-month users are especially prone to early churn, whereas long-term contract customers remain stable. Lifecycle churn patterns confirm that onboarding experience, initial service satisfaction, and expectation alignment during early months are critical levers for improving retention.”*
 
 ### Outcome of Step-1
-- Identified key churn drivers
-- Validated business assumptions before model building
-- Prepared data for feature engineering and machine learning
+From Excel analysis and Tableau dashboard, the following insights were observed:
+- Month-to-month contract customers churn the most
+- Fiber optic internet users show higher churn rates
+- Customers with higher monthly charges are more likely to churn
+- Early-tenure customers are at higher risk of leaving
+- Payment method plays a role, with electronic check users showing higher churn
+- Gender shows minimal influence on churn behavior
+
+The extended EDA and visualization phase demonstrated that customer churn is:
+- Segmentable (specific high-risk cohorts exist)
+- Predictable (drivers show clear patterns)
+- Actionable (interventions can be targeted)
+
+These insights validate that machine learning is meaningful for this use case and directly support feature engineering and model design in Step 2.
 
 ---
 
@@ -169,7 +187,3 @@ To ensure clarity and avoid visual clutter, the analysis was structured into **f
 ➡️ Data cleaning, feature engineering, and model development
 
 ---
-
-
-
-
